@@ -1,0 +1,63 @@
+body {
+    width: 220px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.stat-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.stat-value {
+    font-weight: bold;
+    color: #2196F3;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.control-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn.active {
+    background-color: #4CAF50;
+}
+
+#whitelist-status {
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+}
